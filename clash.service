@@ -1,0 +1,11 @@
+[Unit]
+Description=Clash daemon, A rule-based proxy in Go.
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/home/nofoot/App/clash/clash-linux-amd64 -d /home/nofoot/App/clash/config #must be absolute path, change by your config
+
+[Install]
+WantedBy=multi-user.target
