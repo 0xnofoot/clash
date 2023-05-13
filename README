@@ -12,3 +12,5 @@ you can use command "source proxy-set.sh start" or ". proxy-set.sh start" to set
 if you want global proxy, add this proxy enviroment variables to "/etc/enviroment"
 
 there is a dirctory "app-proxy-start", this is for some special apps to network proxy, like web broswer(i use microsoft-edge-dev).
+
+add new gui app to change the mode whih proxy.
